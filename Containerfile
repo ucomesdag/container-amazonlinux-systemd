@@ -1,4 +1,4 @@
-FROM amazonlinux
+FROM amazonlinux:2023
 
 ARG BUILD_DATE
 
