@@ -12,7 +12,7 @@ This repository has multiple branches that relate to amazonlinux versions.
 
 |Branch |Amazon Linux Version|Container image tag|
 |-------|--------------------|-------------------|
-|main   |2                   |latest             |
+|main   |2023                |latest             |
 
 Pull strategy
 -------------
@@ -27,7 +27,7 @@ podman run \
   --tty \
   --privileged \
   --volume /sys/fs/cgroup:/sys/fs/cgroup:ro \
-  quay.io/ucomesdag/amazonlinux
+  quay.io/ucomesdag/amazonlinux:latest
 ```
 
 <!-- container image -->

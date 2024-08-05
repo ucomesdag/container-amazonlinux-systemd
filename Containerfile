@@ -1,9 +1,10 @@
-FROM amazonlinux
+FROM amazonlinux:2023
 
 ARG BUILD_DATE
 
+LABEL summary="Amazon Linux Systemd Container Image."
 LABEL maintainer="Uco Mesdag <uco@mesd.ag>"
-LABEL build_date=${BUILD_DATE}
+LABEL build-date=${BUILD_DATE}
 
 ENV container=podman
 
